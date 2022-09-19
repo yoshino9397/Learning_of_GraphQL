@@ -1,5 +1,5 @@
 {
-  "name": "learning_of_graphql",
+  "name": "mern_graphql",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yoshino9397/Learning_of_GraphQL.git"
+    "url": "git+https://github.com/yoshino9397/MERN_GraphQL.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yoshino9397/Learning_of_GraphQL/issues"
+    "url": "https://github.com/yoshino9397/MERN_GraphQL/issues"
   },
-  "homepage": "https://github.com/yoshino9397/Learning_of_GraphQL#readme",
+  "homepage": "https://github.com/yoshino9397/MERN_GraphQL#readme",
   "dependencies": {
     "colors": "^1.4.0",
     "cors": "^2.8.5",
