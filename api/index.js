@@ -4,9 +4,17 @@ const cors = require("cors");
 const dotenv = require("dotenv");
 const { graphqlHTTP } = require("express-graphql");
 const schema = require("./schema/schema");
+const mongoose = require("mongoose");
 
 const app = express();
 dotenv.config();
+
+mongoose
+  .connect(process.env.MONGO_URL)
+  .then(() => console.log("DB Connection Successful!"))
+  .catch((err) => {
+    console.log(err);
+  });
 
 app.use(
   "/graphql",
