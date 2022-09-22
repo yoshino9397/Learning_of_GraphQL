@@ -8,6 +8,7 @@ const mongoose = require("mongoose");
 
 const app = express();
 dotenv.config();
+app.use(cors());
 
 mongoose
   .connect(process.env.MONGO_URL)
