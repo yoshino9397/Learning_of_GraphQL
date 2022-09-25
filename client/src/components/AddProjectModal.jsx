@@ -34,7 +34,7 @@ const AddProjectModal = () => {
       return alert("Please fill in all fields");
     }
     addProject(name, description, clientId, status);
-    setName("");
+    
     setDescription("");
     setClientId("");
     setStatus("new");
